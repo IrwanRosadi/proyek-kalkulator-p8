@@ -1,7 +1,12 @@
-/* tablet */
-@media all and (max-width : 1000px) {
+@media all and (max-width : 1170px) {
+
+    .calculator {
+        padding: 30px;
+        width: 50%;
+    }
+    
     .calculator-screen {
-       height: 75px;
+       height: 85px;
     }
 
     .footer {
@@ -12,7 +17,33 @@
     }
 
     button {
+        height: 100px;
+        border-radius: 18px;
+        font-size: 23px;
+    }
+}
+
+/* tablet */
+@media all and (max-width : 1000px) {
+
+    .calculator {
+        padding: 30px;
+        width: 55%;
+    }
+    
+    .calculator-screen {
+       height: 85px;
+    }
+
+    .footer {
         height: 55px;
+        line-height: 55px;
+        margin-top: 415px;
+        font-size: 20px;
+    }
+
+    button {
+        height: 90px;
         border-radius: 18px;
         font-size: 23px;
     }
@@ -26,12 +57,72 @@
 
     .calculator {
         padding: 30px;
+        width: 65%;
+    }
+
+    button {
+        height: 80px;
+        border-radius: 18px;
+        font-size: 18px;
+    }
+
+    .calculator-screen {
+        height: 80px;
+        border-radius: 18px;
+    }
+    .footer {
+        height: 40px;
+        line-height: 40px;
+        margin-top: 518px;
+        font-size: 13px;
+    }
+    
+}
+
+@media all and (max-width : 470px) {
+    *{
+        padding: 0;
+        margin: 0;
+    }
+
+    .calculator {
+        padding: 30px;
+        width: 65%;
+    }
+
+    button {
+        height: 50px;
+        border-radius: 13px;
+        font-size: 10px;
+    }
+
+    .calculator-screen {
+        height: 60px;
+        border-radius: 9px;
+    }
+    .footer {
+        height: 40px;
+        line-height: 40px;
+        margin-top: 518px;
+        font-size: 13px;
+    }
+} 
+
+@media all and (max-width : 370px) {
+    *{
+        padding: 0;
+        margin: 0;
+    }
+
+    .calculator {
+        padding: 30px;
+        width: 65%;
     }
 
     button {
         height: 40px;
-        border-radius: 9px;
-        font-size: 13px;
+        border-radius: 13px;
+        font-size: 10px;
     }
 
     .calculator-screen {
