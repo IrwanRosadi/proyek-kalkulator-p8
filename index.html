@@ -6,15 +6,18 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Kalkulator</title>
         <link rel="stylesheet" href="styele.css">
+        <!-- responsive -->
+        <link rel="stylesheet" href="responsive.css">
+        <!-- memanggil liberary animate on scroll -->
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     </head>
     <body>
-        <div class="calculator">
-            <div class="card">
+        <div class="calculator" >
+            <div class="card" data-aos="zoom-in-up" data-aos-duration="3000">
                 <input type="text" class="calculator-screen"  id="viewer" value="" disabled/>
                 <div class="calculator-keys">
                     <div class="row">
                         <button class="all-clear" value="C" onclick="clean()">AC</button>
-                        <!-- <button class="percentage">%</button> -->
                         <button class="clear" value="DEL" onclick="backspace()">Del</button>
                         <button class="operator" value="/" onclick="view('/')">&divide;</button>
                     </div>
@@ -45,6 +48,19 @@
                 </div>
             </div>
         </div>
+        <div class="footer">
+            <div class="container">
+                <center>Copyright &copy; by Irwan Rosadi</center>
+            </div>
+        </div>
+
+        <!-- script kalkulator -->
         <script type="text/javascript" src="script.js"></script>
+
+        <!-- script animate on scroll -->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>  
     </body>
 </html>
