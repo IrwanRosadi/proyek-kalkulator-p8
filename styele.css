@@ -6,7 +6,7 @@
 }
 
 body {
-    background: linear-gradient(to right, rgb(131, 117, 117), rgb(25, 23, 116));
+    background: linear-gradient(to right, rgb(131, 117, 117), rgb(50, 48, 187));
 }
 
 .calculator {
@@ -57,20 +57,24 @@ button{
     outline: none;
     margin: 3px;
     border-radius: 20px;
-    border: none;
+    /* border: none; */
 }
 
 .all-clear, .clear {
     background-color: rgb(228, 67, 67);
 }
 
-/* membuat tombol AC dan 0 jadi 50% */
+/* membuat tombol AC jadi 50% */
 .all-clear{
     width: 50%;
 }
 
-.operator, .equal {
+.operator {
     background-color: orange;
+}
+
+.equal {
+    background-color: rgb(5, 144, 5);
 }
 
 /* warna berubah ketika kursor diarahkan ke button */
@@ -81,8 +85,12 @@ button:hover {
     cursor: pointer;
 }
 
-.operator:hover, .equal:hover {
+.operator:hover {
     background-color: darkorange;
+}
+
+.equal:hover {
+    background-color: rgb(7, 121, 7);
 }
 
 .all-clear:hover, .clear:hover {
