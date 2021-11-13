@@ -17,17 +17,17 @@ body {
 }
 
 .card {
-    background-color: white;
-    box-shadow: 0 4px 10px 0 rgba(12, 12, 12, 0.9);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 10px 0 rgba(20, 20, 20, 0.9);
     border-radius: 23px;
     padding: 30px;
     margin-top: 20px;
 }
 
 .calculator-screen {
-    width: 99%;
+    width: 98%;
     height: 85px;
-    background-color: #474747;
+    background-color: #303030;
     color: white;
     text-align: right;
     font-size: 36px;
@@ -70,7 +70,7 @@ button{
 }
 
 .operator {
-    background-color: orange;
+    background-color: rgb(235, 157, 12);
 }
 
 .equal {
